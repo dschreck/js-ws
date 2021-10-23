@@ -1,6 +1,7 @@
 const webpack = require('webpack')
 const { merge } = require('webpack-merge')
 
+// eslint-disable-next-line import/extensions
 const common = require('./webpack.common.js')
 const paths = require('./paths')
 

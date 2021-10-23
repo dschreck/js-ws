@@ -3,6 +3,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const { merge } = require('webpack-merge')
 
 const paths = require('./paths')
+// eslint-disable-next-line import/extensions
 const common = require('./webpack.common.js')
 
 module.exports = merge(common, {
